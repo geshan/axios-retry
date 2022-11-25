@@ -1,0 +1,23 @@
+{
+  "name": "axios-retry",
+  "version": "1.0.0",
+  "description": "A demo repo for Axios retry blog post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geshan/axios-retry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geshan/axios-retry/issues"
+  },
+  "homepage": "https://github.com/geshan/axios-retry#readme",
+  "dependencies": {
+    "axios": "^1.2.0"
+  }
+}
