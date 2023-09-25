@@ -1,5 +1,5 @@
-import axiosRetry from 'axios-retry';
 import axios from 'axios';
+import axiosRetry from 'axios-retry';
  
 axiosRetry(axios, { 
    retries: 3,
@@ -27,7 +27,7 @@ axiosRetry(axios, {
     const res = await axios.get('https://postman-echo.com/status/500');
     console.log(`inside async:`, res.status);
   } catch(err) {
-    console.error(`Error occured: `, err.message);
+    console.error(`Error occurred: `, err.message);
   }  
 })();
 
