@@ -3,7 +3,7 @@ import axios from 'axios';
  
 axiosRetry(axios, { 
    retries: 3,
-   retryDelay: axiosRetry.exponentialDelay,
+   retryDelay: (...arg) => axiosRetry.exponentialDelay(...arg, 1000),
    retryCondition(error) {
     switch (error.response.status) {
       //retry only if status is 500 or 501
